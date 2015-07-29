@@ -16,6 +16,7 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -26,29 +27,25 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="container-fluid top-header">
-      <span class="topline"><img src="./images/truck.png">  FREE SHIPPING ON ALL ORDERS WORLD WIDE !</span>
-      <span class="dropdown">
-          Account
-          <span class="caret"></span>
+    <div class="container top-header">
+      <span class=".col-xs-6 pull-left"><img src="./images/truck.png">  FREE SHIPPING ON ALL ORDERS WORLD WIDE !</span>
+      <span class=".col-xs-6 pull-right">Account
+        <span class="caret"></span>
       </span>
     </div>
 
-
-    <div class="container navb">
+    <div class="container">
       <div class="header">
         <ul class="nav nav-pills">
-          <li><h2>Brand</h2></li>
+          <li><h1>BRAND</h1></li>
           <li><a href="#">SHOP</a></li>
           <li><a href="#">OUR STORY</a></li>
           <li><a href="#">BLOG</a></li>
           <li><a href="#">HELP</a></li>
           <li><a href="#">CONTACT</a></li>
-          <div class="pull-right bagbutton">
-            <img src="./images/bag.png"> 
-            <button class="btn active">
-              <b>(2)</b><span>ITEMS IN THIS BAG</span>
-            </button>
+          <div class="btn-group pull-right" role="group">
+            <button type="button" class="btn bagButton active"><img src="./images/bag.png"></button>
+            <button type="button" class="btn active"><b>(2)</b><span> ITEMS IN THIS BAG</span></button>
           </div>
         </ul>
       </div>
@@ -97,7 +94,7 @@
       <div class="jumbotron secondHalf"></div>
 
       <div class="container facebook">
-        <a href="#">LIKE US</a> ON FACEBOOK FOR EXCLUSIVE OFFERS AND UPDATES
+        <a href="#">LIKE US</a><span> ON FACEBOOK FOR EXCLUSIVE OFFERS AND UPDATES</span>
       </div>
 
       <div class="container bottomLinks">

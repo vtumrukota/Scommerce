@@ -16,7 +16,7 @@ $icon-font-path: '../fonts/';
 .header,
 .marketing,
 .footer,
-.container-fluid.top-header{
+.top-header{
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -26,19 +26,13 @@ $icon-font-path: '../fonts/';
   border-bottom: 1px solid #e5e5e5;
 
   /* Make the masthead heading the same height as the navigation */
-  h2 {
+  h1 {
+    font-family: 'Goudy Bookletter 1911', serif;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
   }
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {
@@ -49,10 +43,6 @@ $icon-font-path: '../fonts/';
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
 }
 
 /* Supporting marketing content */
@@ -69,6 +59,12 @@ $icon-font-path: '../fonts/';
     max-width: 730px;
   }
 
+  
+
+ .bagButton {
+    float: center;
+  }
+
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -77,11 +73,6 @@ $icon-font-path: '../fonts/';
     padding-right: 0;
   }
 
-  /* Space out the masthead */
-  .header {
-/*    margin-bottom: 30px;
-*/    display: inline;
-  }
 
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
@@ -94,26 +85,40 @@ $icon-font-path: '../fonts/';
 
   }
 }
-
 /***************************Custom CSS**************************/
-div.container-fluid.top-header {
+@media screen and (min-width: 400px) {
+.btn-group {
+    text-align:center;
+  }
+}
+/**********Top Bar********/
+.top-header {
   padding-top: 5px;
   padding-bottom: 5px;
-
   font-size: 0.75em;
   background: linear-gradient(white, #e5e5e5);
-  text-align: center;
 }
 
-.bagbutton {
-  border: 1px solid black;
-  border-radius: 4px;
+/******Main Header and Links********/
+.header ul li a {
+  padding-left: 8px;
+  padding-right:8px;
+  padding-top: 20px;
+}
+
+.bagButton  {
+  background-color: white;
+  border: 1px solid rgb(192,192,192);
+  margin-bottom: 1em;
 }
 
 li a {
   color: black;
   font-size: 0.75em;
-  padding-top: 0px;
+}
+
+ul.nav.nav-pills {
+  padding-top: 20px;
 }
 
 .promo {
@@ -150,15 +155,13 @@ li a {
 
 .fakeText {
   font-size: 0.75em;
+  margin-top: 0.8em;
+
 }
 
 div.col-md-4 center b {
   margin-bottom: 2em;
   font-size: 0.8em;
-}
-
-div.col-md-4 p {
-  margin-top: 0.8em;
 }
 
 .btn-xs {
@@ -182,13 +185,10 @@ div.col-md-4 p {
 
 .facebook {
   background-color: #e5e5e5;
-  padding-top: 2em;
-  padding-bottom: 1em;
+  padding: 2em;
   text-align: center;
   font-weight: bold;
-  vertical-align: center;
-  line-height: 0px;
-
+  margin-bottom: 0.8em;
 }
 .facebook a{
   color:rgb(255,88,0);
