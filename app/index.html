@@ -30,11 +30,13 @@
     <![endif]-->
 
     <!-- Top Bar of Site -->
-    <div class="container top-header">
-      <span class=".col-xs-6 pull-left"><img src="./images/truck.png">  FREE SHIPPING ON ALL ORDERS WORLD WIDE !</span>
-      <span class=".col-xs-6 pull-right">Account
-        <span class="caret"></span>
-      </span>
+    <div class="container-fluid top-header">
+      <div class="container">
+        <span class=".col-xs-6 pull-left"><img src="./images/truck.png">  FREE SHIPPING ON ALL ORDERS WORLD WIDE !</span>
+        <span class=".col-xs-6 pull-right">Account
+          <span class="caret"></span>
+        </span>
+      </div>
     </div>
 
     <!-- Header and Nav Buttons -->
@@ -47,10 +49,12 @@
           <li><a href="#">BLOG</a></li>
           <li><a href="#">HELP</a></li>
           <li><a href="#">CONTACT</a></li>
+        <div class="container">  
           <div class="btn-group pull-right" role="group">
             <button type="button" class="btn bagButton active"><img src="./images/bag.png"></button>
             <button type="button" class="btn active"><b>(2)</b><span> ITEMS IN THIS BAG</span></button>
           </div>
+        </div>
         </ul>
       </div>
     </div>
@@ -63,6 +67,7 @@
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -72,7 +77,9 @@
         </div>
         <div class="item">
           <img src="./images/beach2.jpg" alt="...">
-
+        </div>
+        <div class="item">
+          <img src="./images/beach1.jpg" alt="...">
         </div>
         <div class="item">
           <img src="./images/beach3.jpg" alt="...">
@@ -80,12 +87,15 @@
       </div>
 
       <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+      <div class="container arrows">
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span><img src="./images/arrow.png" style="transform: scaleX(-1)"></span>
+        </a>
+      </div>
+      <div class="container arrows">
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span><img src="./images/arrow.png"></span>
+        </a>
     </div> <!-- Carousel -->
   </div>
 
