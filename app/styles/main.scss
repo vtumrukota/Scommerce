@@ -106,8 +106,14 @@ button.btn.bagButton.active {
   background-color: white;
 /*  border: 1px solid rgb(223,223,223);
 */  margin-bottom: 1em;
+    font-size: 0.7em;
 }
 
+button.btn.active {
+  background-color: #e5e5e5;
+  font-size: 0.7em;
+
+}
 
 li a {
   color: black;
@@ -131,16 +137,15 @@ div.container-fluid {
 }
 
 /*Navigation Arrows*/
+
+
 #carousel-example-generic div.container.arrows a.left.carousel-control span img,
 #carousel-example-generic div.container.arrows a.right.carousel-control span img {
-  height: 99px; 
+  height: 60px;
+  width:60px; 
   vertical-align: middle;
+  margin-top: 10em;
 }
-
-#carousel-example-generic div.container.arrows a.left.carousel-control span img {
-  
-}
-
 
 /*Promotion Banner*/
 div.container-fluid.promo {
