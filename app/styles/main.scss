@@ -41,6 +41,7 @@ $icon-font-path: '../fonts/';
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  width: 100%;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -57,9 +58,7 @@ $icon-font-path: '../fonts/';
 @media screen and (min-width: 768px) {
   .container {
     max-width: 730px;
-  }
-
-  
+  }  
 
  .bagButton {
     float: center;
@@ -76,9 +75,6 @@ $icon-font-path: '../fonts/';
 
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
-    border-bottom: 0;
-    margin-bottom: 0;
-
     padding-top: 15em;
     padding-bottom: 15em;
 
@@ -119,6 +115,11 @@ li a {
 
 ul.nav.nav-pills {
   padding-top: 20px;
+}
+
+/*Carousel*/
+.arrow{
+  width: 70px;
 }
 
 .promo {

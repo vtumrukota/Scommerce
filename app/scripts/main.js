@@ -1,1 +1,5 @@
-console.log('\'Allo \'Allo!');
+$(document).ready(function(){
+  $('.carousel').carousel({
+        interval: 4000
+    });
+};
