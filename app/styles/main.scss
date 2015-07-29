@@ -15,7 +15,8 @@ $icon-font-path: '../fonts/';
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
-.footer{
+.footer,
+.container-fluid.top-header{
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -138,32 +139,41 @@ li a {
 
 .col-md-4 .img-responsive {
   height:150px;
-  width: 200px;
+  width: 450px;
   background-image: url('');
   background-color: #e5e5e5;
   border: none;
   border-radius: 2px;
   display: center;
+  margin-bottom: 0.8em;  
 }
 
-div.col-md-4 b {
-  padding-top: 4em;
-  padding-bottom: 2em;
+.fakeText {
+  font-size: 0.75em;
+}
+
+div.col-md-4 center b {
+  margin-bottom: 2em;
+  font-size: 0.8em;
+}
+
+div.col-md-4 p {
+  margin-top: 0.8em;
 }
 
 .btn-xs {
   color: white;
   background-color: black;
   font-weight: bold;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 .btn-xs:hover {
   color: rgb(255,88,0);
 }
 
 .secondHalf {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 2em;
   padding-top: 9em;
   padding-bottom: 9em;
