@@ -16,8 +16,8 @@ $icon-font-path: '../fonts/';
 .header,
 .marketing,
 .footer{
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Custom page header */
@@ -87,19 +87,21 @@ $icon-font-path: '../fonts/';
     border-bottom: 0;
     margin-bottom: 0;
 
-    padding-top: 18em;
-    padding-bottom: 18em;
+    padding-top: 15em;
+    padding-bottom: 15em;
 
 
   }
 }
 
 /***************************Custom CSS**************************/
-.top-header {
+div.container-fluid.top-header {
   padding-top: 5px;
   padding-bottom: 5px;
+
   font-size: 0.75em;
   background: linear-gradient(white, #e5e5e5);
+  text-align: center;
 }
 
 .bagbutton {
@@ -134,7 +136,7 @@ li a {
   background-color: #e5e5e5;
 }
 
-.col-md-4 img {
+.col-md-4 .img-responsive {
   height:150px;
   width: 200px;
   background-image: url('');
@@ -144,9 +146,9 @@ li a {
   display: center;
 }
 
-.col-md-4 b {
+div.col-md-4 b {
   padding-top: 4em;
-  padding-bottom: 2em; 
+  padding-bottom: 2em;
 }
 
 .btn-xs {
@@ -156,11 +158,52 @@ li a {
   padding-left: 4em;
   padding-right: 4em;
 }
+.btn-xs:hover {
+  color: rgb(255,88,0);
+}
 
 .secondHalf {
   margin-top: 2em;
   margin-bottom: 2em;
-  padding-top: 7em;
-  padding-bottom: 7em;
+  padding-top: 9em;
+  padding-bottom: 9em;
   background-color: #e5e5e5;
+}
+
+.facebook {
+  background-color: #e5e5e5;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: center;
+  line-height: 0px;
+
+}
+.facebook a{
+  color:rgb(255,88,0);
+}
+
+.col-md-3, .col-md-2, .col-md-4{
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.col-md-3 a, .col-md-2 a{
+  color: black;
+}
+
+
+.user a img{
+  background-size: initial;
+  background-color: white;
+  margin-top: 1em;
+  float:left;
+  padding-right: 15px
+}
+
+
+.input-group-addon {
+  background-color: rgb(255,88,0);
+  color: white;
 }
